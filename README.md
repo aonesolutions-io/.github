@@ -12,6 +12,7 @@ Every repository in the organization can inherit behavior from this repository t
 - `CODEOWNERS` - default reviewers and ownership rules
 - `PULL_REQUEST_TEMPLATE.md` - pull request checklist
 - `.github/ISSUE_TEMPLATE/` - issue forms for bugs, features, docs, and research
+- `.github/workflows/` - validation, dependency review, release, stale issue, labeler, and CodeQL automation
 
 ## Reference Repositories
 
