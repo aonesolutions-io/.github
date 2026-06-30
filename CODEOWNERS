@@ -8,110 +8,110 @@
 # Default Owners
 # ----------------------------------------------------------------------------
 
-*                                   @AONE/founders
+*                                   @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Organization Standards
 # ----------------------------------------------------------------------------
 
-/.github/                           @AONE/founders
+/.github/                           @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Documentation
 # ----------------------------------------------------------------------------
 
-/docs/                              @AONE/product @AONE/founders
+/docs/                              @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Architecture
 # ----------------------------------------------------------------------------
 
-/architecture/                      @AONE/engineering
+/architecture/                      @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Backend
 # ----------------------------------------------------------------------------
 
-/backend/                           @AONE/backend
+/backend/                           @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Customer App
 # ----------------------------------------------------------------------------
 
-/customer-app/                      @AONE/mobile
+/customer-app/                      @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Driver App
 # ----------------------------------------------------------------------------
 
-/driver-app/                        @AONE/mobile
+/driver-app/                        @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Fleet App
 # ----------------------------------------------------------------------------
 
-/fleet-app/                         @AONE/mobile
+/fleet-app/                         @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Admin Panel
 # ----------------------------------------------------------------------------
 
-/admin-panel/                       @AONE/backend
+/admin-panel/                       @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Website
 # ----------------------------------------------------------------------------
 
-/website/                           @AONE/frontend
+/website/                           @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Shared Packages
 # ----------------------------------------------------------------------------
 
-/shared-sdk/                        @AONE/engineering
+/shared-sdk/                        @aonesolutions-io/engineering
 
-/shared-types/                      @AONE/engineering
+/shared-types/                      @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Infrastructure
 # ----------------------------------------------------------------------------
 
-/infrastructure/                    @AONE/devops
+/infrastructure/                    @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Security Sensitive Files
 # ----------------------------------------------------------------------------
 
-**/package.json                     @AONE/engineering
+**/package.json                     @aonesolutions-io/engineering
 
-**/package-lock.json                @AONE/engineering
+**/package-lock.json                @aonesolutions-io/engineering
 
-**/pnpm-lock.yaml                   @AONE/engineering
+**/pnpm-lock.yaml                   @aonesolutions-io/engineering
 
-**/yarn.lock                        @AONE/engineering
+**/yarn.lock                        @aonesolutions-io/engineering
 
-Dockerfile                          @AONE/devops
+Dockerfile                          @aonesolutions-io/engineering
 
-docker-compose.yml                  @AONE/devops
+docker-compose.yml                  @aonesolutions-io/engineering
 
-.github/workflows/                  @AONE/devops @AONE/founders
+.github/workflows/                  @aonesolutions-io/engineering
 
-terraform/                          @AONE/devops
+terraform/                          @aonesolutions-io/engineering
 
-*.tf                                @AONE/devops
+*.tf                                @aonesolutions-io/engineering
 
-*.tfvars                            @AONE/devops
+*.tfvars                            @aonesolutions-io/engineering
 
 # ----------------------------------------------------------------------------
 # Documentation Standards
 # ----------------------------------------------------------------------------
 
-README.md                           @AONE/founders
+README.md                           @aonesolutions-io/engineering
 
-CONTRIBUTING.md                     @AONE/founders
+CONTRIBUTING.md                     @aonesolutions-io/engineering
 
-SECURITY.md                         @AONE/founders
+SECURITY.md                         @aonesolutions-io/engineering
 
-CODEOWNERS                          @AONE/founders
+CODEOWNERS                          @aonesolutions-io/engineering
 
-LICENSE                             @AONE/founders
+LICENSE                             @aonesolutions-io/engineering
