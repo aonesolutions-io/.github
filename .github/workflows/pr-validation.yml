@@ -22,6 +22,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Ensure Branch Is Ready for Review
-        run: |
-          echo "Pull request title validated and workflow executed."
+      - name: Lint GitHub Actions Workflows
+        uses: rhysd/actionlint@v1
