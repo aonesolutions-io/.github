@@ -1,0 +1,52 @@
+name: Research
+description: Create a research task before implementation.
+title: "[Research]: "
+labels:
+  - research
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Research Objective
+    validations:
+      required: true
+
+  - type: textarea
+    id: questions
+    attributes:
+      label: Key Questions
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Expected Deliverables
+      description: |
+        Example:
+        - Findings
+        - Recommended approach
+        - Risks
+        - References
+    validations:
+      required: true
+
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Repository
+      options:
+        - backend
+        - customer-app
+        - driver-app
+        - fleet-app
+        - admin-panel
+        - website
+        - infrastructure
+        - docs
+        - architecture
+    validations:
+      required: true

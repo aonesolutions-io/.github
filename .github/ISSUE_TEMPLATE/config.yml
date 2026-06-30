@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 📖 Engineering Documentation
+    url: https://github.com/AONE/docs
+    about: Review engineering standards and documentation before opening an issue.
+
+  - name: 🔒 Security Vulnerability
+    url: https://github.com/AONE/.github/security/policy
+    about: Please report security vulnerabilities privately according to SECURITY.md.

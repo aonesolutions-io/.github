@@ -1,0 +1,47 @@
+name: Documentation
+description: Request improvements or additions to documentation.
+title: "[Docs]: "
+labels:
+  - documentation
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Documentation Category
+      options:
+        - Business
+        - Product
+        - Engineering
+        - Architecture
+        - Infrastructure
+        - Security
+        - QA
+        - Operations
+        - Feature Specification
+    validations:
+      required: true
+
+  - type: input
+    id: document
+    attributes:
+      label: Document ID
+      placeholder: e.g. ENG-430, PRD-210, SPEC-904
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Requested Change
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is this needed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Related Documents / Links

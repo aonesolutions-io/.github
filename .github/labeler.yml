@@ -1,0 +1,55 @@
+backend:
+  - changed-files:
+      - any-glob-to-any-file:
+          - backend/**
+
+admin-panel:
+  - changed-files:
+      - any-glob-to-any-file:
+          - admin-panel/**
+
+customer-app:
+  - changed-files:
+      - any-glob-to-any-file:
+          - customer-app/**
+
+driver-app:
+  - changed-files:
+      - any-glob-to-any-file:
+          - driver-app/**
+
+fleet-app:
+  - changed-files:
+      - any-glob-to-any-file:
+          - fleet-app/**
+
+website:
+  - changed-files:
+      - any-glob-to-any-file:
+          - website/**
+
+shared-sdk:
+  - changed-files:
+      - any-glob-to-any-file:
+          - shared-sdk/**
+
+shared-types:
+  - changed-files:
+      - any-glob-to-any-file:
+          - shared-types/**
+
+infrastructure:
+  - changed-files:
+      - any-glob-to-any-file:
+          - infrastructure/**
+
+architecture:
+  - changed-files:
+      - any-glob-to-any-file:
+          - architecture/**
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - docs/**
+          - "**/*.md"
